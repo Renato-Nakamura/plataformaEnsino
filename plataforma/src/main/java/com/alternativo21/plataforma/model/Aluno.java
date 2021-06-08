@@ -30,6 +30,7 @@ public class Aluno extends Usuario{
 	//@ManyToMany
 	//private Atividade atividade;
 	
-	@OneToMany(mappedBy = "aluno")
-	private Set<Entrega> entrega;
+	/*
+	 * @OneToMany(mappedBy = "aluno") private Set<Entrega> entrega;
+	 */
 }

@@ -38,6 +38,7 @@ public class Atividade {
 	@JsonIgnoreProperties("atividade")
 	private Turma turma;
 	
-	@OneToMany(mappedBy = "atividade")
-	private Set<Entrega> entrega;
+	/*
+	 * @OneToMany(mappedBy = "atividade") private Set<Entrega> entrega;
+	 */
 }
